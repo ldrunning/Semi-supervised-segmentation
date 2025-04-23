@@ -1,5 +1,8 @@
 This network is an improvement based on the UniMatch network architecture. 
 
+Trained model ：best.pth
+https://pan.baidu.com/s/1H6l_ZQuO9oEGuy9zmZpdjw     Extraction code: s8wi
+
 
 
 ### Pretrained Backbone
