@@ -60,7 +60,6 @@ Modify the ``method`` from ``'unimatch'`` to ``'supervised'`` in [train.sh](http
 
 ## Citation
 
-If you find this project useful, please consider citing:
 
 ```bibtex
 @inproceedings{unimatch,
@@ -70,9 +69,3 @@ If you find this project useful, please consider citing:
   year={2023}
 }
 ```
-
-We have some other works on semi-supervised semantic segmentation:
-
-- [[CVPR 2022] ST++](https://github.com/LiheYoung/ST-PlusPlus) 
-- [[CVPR 2023] AugSeg](https://github.com/ZhenZHAO/AugSeg)
-- [[CVPR 2023] iMAS](https://github.com/ZhenZHAO/iMAS)
