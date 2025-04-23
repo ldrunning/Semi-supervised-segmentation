@@ -1,20 +1,10 @@
-# UniMatch
+This network is an improvement based on the UniMatch network architecture. 
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-weak-to-strong-consistency-in-semi/semi-supervised-semantic-segmentation-on-21)](https://paperswithcode.com/sota/semi-supervised-semantic-segmentation-on-21?p=revisiting-weak-to-strong-consistency-in-semi)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-weak-to-strong-consistency-in-semi/semi-supervised-semantic-segmentation-on-4)](https://paperswithcode.com/sota/semi-supervised-semantic-segmentation-on-4?p=revisiting-weak-to-strong-consistency-in-semi)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-weak-to-strong-consistency-in-semi/semi-supervised-semantic-segmentation-on-27)](https://paperswithcode.com/sota/semi-supervised-semantic-segmentation-on-27?p=revisiting-weak-to-strong-consistency-in-semi)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-weak-to-strong-consistency-in-semi/semi-supervised-semantic-segmentation-on-29)](https://paperswithcode.com/sota/semi-supervised-semantic-segmentation-on-29?p=revisiting-weak-to-strong-consistency-in-semi)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-weak-to-strong-consistency-in-semi/semi-supervised-semantic-segmentation-on-10)](https://paperswithcode.com/sota/semi-supervised-semantic-segmentation-on-10?p=revisiting-weak-to-strong-consistency-in-semi)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-weak-to-strong-consistency-in-semi/semi-supervised-semantic-segmentation-on-22)](https://paperswithcode.com/sota/semi-supervised-semantic-segmentation-on-22?p=revisiting-weak-to-strong-consistency-in-semi)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-weak-to-strong-consistency-in-semi/semi-supervised-semantic-segmentation-on-2)](https://paperswithcode.com/sota/semi-supervised-semantic-segmentation-on-2?p=revisiting-weak-to-strong-consistency-in-semi)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-weak-to-strong-consistency-in-semi/semi-supervised-semantic-segmentation-on-1)](https://paperswithcode.com/sota/semi-supervised-semantic-segmentation-on-1?p=revisiting-weak-to-strong-consistency-in-semi)
 
-[**News: Check our latest UniMatch V2 framework!**](https://github.com/LiheYoung/UniMatch-V2)
 
 This codebase contains a strong re-implementation of FixMatch in the field of semi-supervised semantic segmentation, as well as the official PyTorch implementation of our UniMatch in the **[natural](https://github.com/LiheYoung/UniMatch), [remote sensing](https://github.com/LiheYoung/UniMatch/tree/main/more-scenarios/remote-sensing), and [medical](https://github.com/LiheYoung/UniMatch/tree/main/more-scenarios/medical) scenarios**.
 
 > **[Revisiting Weak-to-Strong Consistency in Semi-Supervised Semantic Segmentation](https://arxiv.org/abs/2208.09910)**</br>
-> Lihe Yang, Lei Qi, Litong Feng, Wayne Zhang, Yinghuan Shi</br>
 > *In Conference on Computer Vision and Pattern Recognition (CVPR), 2023*
 
 
@@ -41,7 +31,7 @@ Labeled images are sampled from the **original high-quality** training set. Resu
 | U<sup>2</sup>PL             | 68.0      | 69.2      | 73.7      | 76.2      | 79.5        |
 | ST++                        | 65.2      | 71.0      | 74.6      | 77.3      | 79.1        |
 | PS-MT                       | 65.8      | 69.6      | 76.6      | 78.4      | 80.0        |
-| **UniMatch (Ours)**         | **75.2**  | **77.2**  | **78.8**  | **79.9**  | **81.2**    |
+| **UniMatch      | **75.2**  | **77.2**  | **78.8**  | **79.9**  | **81.2**    |
 
 
 ### Cityscapes
@@ -70,7 +60,8 @@ Results are obtained by DeepLabv3+ based on Xception-65.
 | SupBaseline                 | 22.9        | 28.0        | 33.6        | 37.8        | 42.2        |
 | PseudoSeg                   | 29.8        | 37.1        | 39.1        | 41.8        | 43.6        |
 | PC<sup>2</sup>Seg           | 29.9        | 37.5        | 40.1        | 43.7        | 46.1        |
-| **UniMatch (Ours)**         | [**31.9**](https://drive.google.com/file/d/1kFgg0SGLzS7SJI8sYPQKGLnw8G060kjz/view?usp=sharing)    | [**38.9**](https://drive.google.com/file/d/1scx1FanOcmaut8eVESLaSx7-DiT5JJA6/view?usp=sharing)    | [**44.4**](https://drive.google.com/file/d/1oojVn12tgPW_m94tAOU5YYVZ7xJJitCj/view?usp=sharing)    | [**48.2**](https://drive.google.com/file/d/1tI1AZ8rY6hYQrs216iz2NmlAfLl8f1uP/view?usp=sharing)    | [**49.8**](https://drive.google.com/file/d/1hwRr0IIhdeKH2JYO--iOLl5y69sJ0UYm/view?usp=sharing)    |
+| **UniMatch         | [**31.9**]
+(https://drive.google.com/file/d/1kFgg0SGLzS7SJI8sYPQKGLnw8G060kjz/view?usp=sharing)    | [**38.9**](https://drive.google.com/file/d/1scx1FanOcmaut8eVESLaSx7-DiT5JJA6/view?usp=sharing)    | [**44.4**](https://drive.google.com/file/d/1oojVn12tgPW_m94tAOU5YYVZ7xJJitCj/view?usp=sharing)    | [**48.2**](https://drive.google.com/file/d/1tI1AZ8rY6hYQrs216iz2NmlAfLl8f1uP/view?usp=sharing)    | [**49.8**](https://drive.google.com/file/d/1hwRr0IIhdeKH2JYO--iOLl5y69sJ0UYm/view?usp=sharing)    |
 
 
 ### More Scenarios
@@ -80,17 +71,6 @@ We also apply our UniMatch in the scenarios of semi-supervised **remote sensing 
 - [Remote Sensing Change Detection](https://github.com/LiheYoung/UniMatch/blob/main/more-scenarios/remote-sensing) [[training logs]](https://github.com/LiheYoung/UniMatch/blob/main/more-scenarios/remote-sensing/training-logs)
 - [Medical Image Segmentation](https://github.com/LiheYoung/UniMatch/blob/main/more-scenarios/medical) [[training logs]](https://github.com/LiheYoung/UniMatch/blob/main/more-scenarios/medical/training-logs)
 
-## Getting Started
-
-### Installation
-
-```bash
-cd UniMatch
-conda create -n unimatch python=3.10.4
-conda activate unimatch
-pip install -r requirements.txt
-pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 -f https://download.pytorch.org/whl/torch_stable.html
-```
 
 ### Pretrained Backbone
 
@@ -103,13 +83,7 @@ pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 -f https://download.py
     └── xception.pth
 ```
 
-### Dataset
 
-- Pascal: [JPEGImages](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar) | [SegmentationClass](https://drive.google.com/file/d/1ikrDlsai5QSf2GiSUR3f8PZUzyTubcuF/view?usp=sharing)
-- Cityscapes: [leftImg8bit](https://www.cityscapes-dataset.com/file-handling/?packageID=3) | [gtFine](https://drive.google.com/file/d/1E_27g9tuHm6baBqcA7jct_jqcGA89QPm/view?usp=sharing)
-- COCO: [train2017](http://images.cocodataset.org/zips/train2017.zip) | [val2017](http://images.cocodataset.org/zips/val2017.zip) | [masks](https://drive.google.com/file/d/166xLerzEEIbU7Mt1UGut-3-VN41FMUb1/view?usp=sharing)
-
-Please modify your dataset path in configuration files.
 
 **The groundtruth masks have already been pre-processed by us. You can use them directly.**
 
